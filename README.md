@@ -1,4 +1,4 @@
-# BaiduBeautifyCSS
+# BaiduBeautify
 
 简介描述
 </br>&emsp;&emsp;百度美化TCB版(精简美化、卡片模糊、多样式一键更换)  
