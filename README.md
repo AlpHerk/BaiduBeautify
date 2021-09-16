@@ -21,4 +21,4 @@
     2.建议卡片颜色与背景图主色调相近，更改卡片颜色，卡片阴影，透明度。
     3.极少数的网页搜索结果栏卡片化后，适配效果不太完美，欢迎反馈 Bug。
     
-[CSDN]: https://blog.csdn.net/Alpherkin/article/details/120308251
+[CSDN](https://blog.csdn.net/Alpherkin/article/details/120308251)
