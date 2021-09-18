@@ -1,4 +1,4 @@
-# 百度美化TCB版 BaiduBeautify
+# 百度美化TCB BaiduBeautify
 
 ### 简介描述
     百度美化TCB版(精简美化、卡片模糊、多样式一键更换)
