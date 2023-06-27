@@ -8,7 +8,7 @@
     @author         无白 | Herk
     @preprocessor   stylus
 
-	@var select   PURER-STYLE "氢气系列样式" {
+	@var select   PURER_STYLE "氢气系列样式" {
 		'—————————': 'style1',
 		'默认样式01': 'style1',
 		'默认样式02': 'style2', 
@@ -21,7 +21,7 @@
 		'默认样式09': 'style9',
 		'默认样式10': 'style10'}
 		
-	@var select   DARK-STYLE "深色护眼样式" {
+	@var select   DARK_STYLE "深色护眼样式" {
 		'—————————':  'none',
 		'默认样式1': 'style1',
 		'默认样式2': 'style2', 
@@ -29,7 +29,7 @@
 		'默认样式4': 'style4',
 		'默认样式5': 'style5'}
 		
-	@var select   ANIME-STYLE-style "动漫系列样式" {
+	@var select   ANIME_STYLE "动漫系列样式" {
 		'—————————': 'none',
 		'默认样式1': 'style1',
 		'默认样式2': 'style2', 
@@ -37,7 +37,7 @@
 		'默认样式4': 'style4',
 		'默认样式5': 'style5'}
 		
-	@var select   PORTR-STYLE-style "人物系列样式" {
+	@var select   APORTR_STYLE "人物系列样式" {
 		'—————————':  'none',
 		'默认样式1': 'style1',
 		'默认样式2': 'style2', 
@@ -63,149 +63,149 @@
 	
 	// =============用户设置 个性风格============= //
 	// 氢壁纸系列
-	if (PURER-STYLE == 'style1') {  
-		bg_img = url("https://serch-engine-beautify.pages.dev/docs/images/purer/green-mountain.png")
-		card_color  = rgba(217, 235, 227, .5)
-		title_color = #4070B2 
-		chara_match = #FF3829
-	} else if (PURER-STYLE == 'style2') {  
-		bg_img = url("https://serch-engine-beautify.pages.dev/docs/images/purer/pink-mountain.jpg")
-		card_color  = rgba(255, 255, 255, .8)
-		title_color = #325D99 
-		chara_match = #FF3F2F
- 	} else if (PURER-STYLE == 'style3') {  
-       	bg_img = url("https://serch-engine-beautify.pages.dev/docs/images/purer/blue-phone.jpg")
-		card_color  = rgba(202, 238, 255, .8)
-		title_color = #1D5AAF
-		chara_match = #FF311F
-	} else if (PURER-STYLE == 'style4') {  
-		bg_img = url("https://serch-engine-beautify.pages.dev/docs/images/purer/blue-cheongsam.png")
-		card_color  = rgba(189, 221, 251, .5)
-		title_color = #1A47BA
-		chara_match = #FB2313
-    } else if (PURER-STYLE == 'style5') { 
-		bg_img = url("https://serch-engine-beautify.pages.dev/docs/images/purer/orange-glass.png")
-		card_color  = rgba(255, 205, 179, .5)
-		title_color = #1054B3 
-		chara_match = #FF1400
-    } else if (PURER-STYLE == 'style6') {  
-		bg_img = url("https://serch-engine-beautify.pages.dev/docs/images/purer/gray-jak.jpg")
-		card_color  = rgba(255, 255, 255, .8)
-		title_color = #325D99 
-		chara_match = #FF3F2F
-	} else if (PURER-STYLE == 'style7') {  
-		bg_img = url("https://serch-engine-beautify.pages.dev/docs/images/purer/brown-headphone.png")
-		card_color  = rgba(245, 218, 225, .5)
-		title_color = #1054B3 
-		chara_match = #FF1400
-	} else if (PURER-STYLE == 'style8') {  
-		bg_img = url("https://serch-engine-beautify.pages.dev/docs/images/purer/purple-green.png")
-		card_color  = rgba(225, 228, 255, .5)
-		title_color = #1054B3 
-		chara_match = #FF1400
-	} else if (PURER-STYLE == 'style9') {  
-		bg_img = url("https://serch-engine-beautify.pages.dev/docs/images/purer/gray-jak.jpg")
-		card_color  = rgba(217, 217, 217, .8)
-		title_color = #1054B3 
-		chara_match = #FF1400
-    } else if (PURER-STYLE == 'style10') { 
-		bg_img = url("https://serch-engine-beautify.pages.dev/docs/images/purer/white-blouse.png")
-		card_color  = #EDEDED
-		title_color = #1054B3 
-		chara_match = #FF1400
+	if (PURER_STYLE == 'style1') {  
+		$bg_img = url("https://serch-engine-beautify.pages.dev/docs/images/purer/green-mountain.png")
+		$card_color  = rgba(217, 235, 227, .5)
+		$title_color = #4070B2 
+		$chara_match = #FF3829
+	} else if (PURER_STYLE == 'style2') {  
+		$bg_img = url("https://serch-engine-beautify.pages.dev/docs/images/purer/pink-mountain.jpg")
+		$card_color  = rgba(255, 255, 255, .8)
+		$title_color = #325D99 
+		$chara_match = #FF3F2F
+ 	} else if (PURER_STYLE == 'style3') {  
+       	$bg_img = url("https://serch-engine-beautify.pages.dev/docs/images/purer/blue-phone.jpg")
+		$card_color  = rgba(202, 238, 255, .8)
+		$title_color = #1D5AAF
+		$chara_match = #FF311F
+	} else if (PURER_STYLE == 'style4') {  
+		$bg_img = url("https://serch-engine-beautify.pages.dev/docs/images/purer/blue-cheongsam.png")
+		$card_color  = rgba(189, 221, 251, .5)
+		$title_color = #1A47BA
+		$chara_match = #FB2313
+    } else if (PURER_STYLE == 'style5') { 
+		$bg_img = url("https://serch-engine-beautify.pages.dev/docs/images/purer/orange-glass.png")
+		$card_color  = rgba(255, 205, 179, .5)
+		$title_color = #1054B3 
+		$chara_match = #FF1400
+    } else if (PURER_STYLE == 'style6') {  
+		$bg_img = url("https://serch-engine-beautify.pages.dev/docs/images/purer/gray-jak.jpg")
+		$card_color  = rgba(255, 255, 255, .8)
+		$title_color = #325D99 
+		$chara_match = #FF3F2F
+	} else if (PURER_STYLE == 'style7') {  
+		$bg_img = url("https://serch-engine-beautify.pages.dev/docs/images/purer/brown-headphone.png")
+		$card_color  = rgba(245, 218, 225, .5)
+		$title_color = #1054B3 
+		$chara_match = #FF1400
+	} else if (PURER_STYLE == 'style8') {  
+		$bg_img = url("https://serch-engine-beautify.pages.dev/docs/images/purer/purple-green.png")
+		$card_color  = rgba(225, 228, 255, .5)
+		$title_color = #1054B3 
+		$chara_match = #FF1400
+	} else if (PURER_STYLE == 'style9') {  
+		$bg_img = url("https://serch-engine-beautify.pages.dev/docs/images/purer/gray-jak.jpg")
+		$card_color  = rgba(217, 217, 217, .8)
+		$title_color = #1054B3 
+		$chara_match = #FF1400
+    } else if (PURER_STYLE == 'style10') { 
+		$bg_img = url("https://serch-engine-beautify.pages.dev/docs/images/purer/white-blouse.png")
+		$card_color  = #EDEDED
+		$title_color = #1054B3 
+		$chara_match = #FF1400
 	}
 	
 	//深色护眼系列
-	if (DARK-STYLE == 'style1') 		 {  
-        bg_img = url("https://serch-engine-beautify.pages.dev/docs/images/darkbg/black-mountain.jpg")
-		card_color  = rgba(125, 120, 120, .5)
-		title_color = #2150C8
-		chara_match = #E53629
-	} else if (DARK-STYLE == 'style2') { 
-		bg_img = url("https://serch-engine-beautify.pages.dev/docs/images/darkbg/black-totoro.png")
-		card_color  = rgba(81, 112, 136, .5)
-		title_color = #5590E0
-		chara_match = #F64637
-   } else if (DARK-STYLE == 'style3') { 
-   		bg_img = url("https://serch-engine-beautify.pages.dev/docs/images/darkbg/black-pik.jpg")
-		card_color  = rgba(102, 101, 100, .5)
-		title_color = #4B83D1 
-		chara_match = #E55448
-	} else if (DARK-STYLE == 'style4') {
-		bg_img = url("https://serch-engine-beautify.pages.dev/docs/images/darkbg/black-word.png")
-		card_color  = rgba(116, 116, 116, .5)
-		title_color = #1B65CB
-		chara_match = #FF5F51
-	} else if (DARK-STYLE == 'style5') { 
-		bg_img = url("https://serch-engine-beautify.pages.dev/docs/images/darkbg/black-bulb.png")
-		card_color  = rgba(82, 80, 80, .5)
-		title_color = #245190 
-		chara_match = #A8291E
+	if (DARK_STYLE == 'style1') 		 {  
+        $bg_img = url("https://serch-engine-beautify.pages.dev/docs/images/darkbg/black-mountain.jpg")
+		$card_color  = rgba(125, 120, 120, .5)
+		$title_color = #2150C8
+		$chara_match = #E53629
+	} else if (DARK_STYLE == 'style2') { 
+		$bg_img = url("https://serch-engine-beautify.pages.dev/docs/images/darkbg/black-totoro.png")
+		$card_color  = rgba(81, 112, 136, .5)
+		$title_color = #5590E0
+		$chara_match = #F64637
+   } else if (DARK_STYLE == 'style3') { 
+   		$bg_img = url("https://serch-engine-beautify.pages.dev/docs/images/darkbg/black-pik.jpg")
+		$card_color  = rgba(102, 101, 100, .5)
+		$title_color = #4B83D1 
+		$chara_match = #E55448
+	} else if (DARK_STYLE == 'style4') {
+		$bg_img = url("https://serch-engine-beautify.pages.dev/docs/images/darkbg/black-word.png")
+		$card_color  = rgba(116, 116, 116, .5)
+		$title_color = #1B65CB
+		$chara_match = #FF5F51
+	} else if (DARK_STYLE == 'style5') { 
+		$bg_img = url("https://serch-engine-beautify.pages.dev/docs/images/darkbg/black-bulb.png")
+		$card_color  = rgba(82, 80, 80, .5)
+		$title_color = #245190 
+		$chara_match = #A8291E
 	}
 	// 动漫二次元系列
-	if (ANIME-STYLE-style == 'style1') { 
-		bg_img = url("https://serch-engine-beautify.pages.dev/https://serch-engine-beautify.pages.dev/docs/images/anime/blue-bilibili.jpg")
-		card_color  = rgba(230, 247, 255, .5)
-		title_color = #1D5AAF
-		chara_match = #FF2C1C  
-	} else if (ANIME-STYLE-style == 'style2') { 
-		bg_img = url("https://serch-engine-beautify.pages.dev/docs/images/anime/red-bilibili.jpg")
-		card_color  = rgba(252, 213, 179, .6)
-		title_color = #0054c9 
-		chara_match = #FF2C1C 
-	} else if (ANIME-STYLE-style == 'style3') {
-		bg_img = url("https://serch-engine-beautify.pages.dev/docs/images/anime/yellow-saber.jpg")
-		card_color  = rgba(250, 252, 255, .5)
-		title_color = #006bff 
-		chara_match = #ff1200 
-	} else if (ANIME-STYLE-style == 'style4') {
-		bg_img = url("https://serch-engine-beautify.pages.dev/docs/images/anime/green-yourname.jpg")
-		card_color  = rgba(230, 240, 255, .5)
-		title_color = #146BE4 
-		chara_match = #F00 
-	} else if (ANIME-STYLE-style == 'style5') {
-        bg_img = url("https://serch-engine-beautify.pages.dev/docs/images/anime/brown-coffecup.jpg")
-		card_color  = rgba(194, 206, 218, .5)
-		title_color = #396096 
-		chara_match = #EA4335
+	if (ANIME_STYLE == 'style1') { 
+		$bg_img = url("https://serch-engine-beautify.pages.dev/https://serch-engine-beautify.pages.dev/docs/images/anime/blue-bilibili.jpg")
+		$card_color  = rgba(230, 247, 255, .5)
+		$title_color = #1D5AAF
+		$chara_match = #FF2C1C  
+	} else if (ANIME_STYLE == 'style2') { 
+		$bg_img = url("https://serch-engine-beautify.pages.dev/docs/images/anime/red-bilibili.jpg")
+		$card_color  = rgba(252, 213, 179, .6)
+		$title_color = #0054c9 
+		$chara_match = #FF2C1C 
+	} else if (ANIME_STYLE == 'style3') {
+		$bg_img = url("https://serch-engine-beautify.pages.dev/docs/images/anime/yellow-saber.jpg")
+		$card_color  = rgba(250, 252, 255, .5)
+		$title_color = #006bff 
+		$chara_match = #ff1200 
+	} else if (ANIME_STYLE == 'style4') {
+		$bg_img = url("https://serch-engine-beautify.pages.dev/docs/images/anime/green-yourname.jpg")
+		$card_color  = rgba(230, 240, 255, .5)
+		$title_color = #146BE4 
+		$chara_match = #F00 
+	} else if (ANIME_STYLE == 'style5') {
+        $bg_img = url("https://serch-engine-beautify.pages.dev/docs/images/anime/brown-coffecup.jpg")
+		$card_color  = rgba(194, 206, 218, .5)
+		$title_color = #396096 
+		$chara_match = #EA4335
 	}
 	
 	// 人物画像系列
-    if (PORTR-STYLE-style == 'style1') {
-		bg_img = url("https://serch-engine-beautify.pages.dev/docs/images/portr/grayblue.jpg")
-		card_color  = rgba(192, 202, 217, .5) 
-		title_color = #4A7CFD  
-		chara_match = #FF2514 
-	} else if (PORTR-STYLE-style == 'style2') {
-		bg_img = url("https://serch-engine-beautify.pages.dev/docs/images/portr/black.jpg")
-		card_color  = rgba(157, 157, 157, .5) 
-		title_color = #81B5FD
-		chara_match = #FF4B3C
-	} else if (PORTR-STYLE-style == 'style3') {
-        bg_img = url("https://serch-engine-beautify.pages.dev/docs/images/portr/pink.jpg")
-		card_color  = rgba(200, 189, 188, .5)
-		title_color = #2E6ABE 
-		chara_match = #FF4A3B
-	} else if (PORTR-STYLE-style == 'style4') {
-        bg_img = url("https://serch-engine-beautify.pages.dev/docs/images/portr/gray.jpg")
-		card_color  = rgba(241, 241, 241, .5)
-		title_color = #3078DB 
-		chara_match = #FF4A3B
-    } else 	if (PORTR-STYLE-style == 'style5') {  
-        bg_img = url("https://serch-engine-beautify.pages.dev/docs/images/portr/lightgray.jpg")
-		card_color  = rgba(245, 238, 236, .5) 
-		title_color = #2B76E0
-		chara_match = #FF4838
+    if (APORTR_STYLE == 'style1') {
+		$bg_img = url("https://serch-engine-beautify.pages.dev/docs/images/portr/grayblue.jpg")
+		$card_color  = rgba(192, 202, 217, .5) 
+		$title_color = #4A7CFD  
+		$chara_match = #FF2514 
+	} else if (APORTR_STYLE == 'style2') {
+		$bg_img = url("https://serch-engine-beautify.pages.dev/docs/images/portr/black.jpg")
+		$card_color  = rgba(157, 157, 157, .5) 
+		$title_color = #81B5FD
+		$chara_match = #FF4B3C
+	} else if (APORTR_STYLE == 'style3') {
+        $bg_img = url("https://serch-engine-beautify.pages.dev/docs/images/portr/pink.jpg")
+		$card_color  = rgba(200, 189, 188, .5)
+		$title_color = #2E6ABE 
+		$chara_match = #FF4A3B
+	} else if (APORTR_STYLE == 'style4') {
+        $bg_img = url("https://serch-engine-beautify.pages.dev/docs/images/portr/gray.jpg")
+		$card_color  = rgba(241, 241, 241, .5)
+		$title_color = #3078DB 
+		$chara_match = #FF4A3B
+    } else 	if (APORTR_STYLE == 'style5') {  
+        $bg_img = url("https://serch-engine-beautify.pages.dev/docs/images/portr/lightgray.jpg")
+		$card_color  = rgba(245, 238, 236, .5) 
+		$title_color = #2B76E0
+		$chara_match = #FF4838
 	}
 	
 	
 	
-	card_blur = --card-blur
-	card_radius = --card-radius
-	if (--self-define-img != '填写链接，保留引号')  { bg_img = url(--self-define-img)} 
-	if --card-color  != #ACACAC80  {card_color  = --card-color } 
-	if --title-color != #ACACAC80  {title_color = --title-color} 
-	if --chara-match != #ACACAC80  {chara_match = --chara-match}
+	$card_blur   = --card-blur
+	$card_radius = --card-radius
+	if (--self-define-img != '填写链接，保留引号')  { $bg_img = url(--self-define-img)} 
+	if --card-color  != #ACACAC80  {$card_color  = --card-color } 
+	if --title-color != #ACACAC80  {$title_color = --title-color} 
+	if --chara-match != #ACACAC80  {$chara_match = --chara-match}
 
 }
 
@@ -250,15 +250,15 @@
 		margin:0 !important;
 	}
     .s_ipt_wr 		/*百度搜索框*/ {
-		backdrop-filter: blur(card_blur+5) !important;
-        background-color: card_color + 25% !important;
-		border-color : card_color - 50% !important;
-		border-radius: card_radius, 0, card_radius, 0 !important;
+		backdrop-filter: blur($card_blur+5) !important;
+        background-color: $card_color + 25% !important;
+		border-color : $card_color - 50% !important;
+		border-radius: $card_radius, 0, $card_radius, 0 !important;
     }
 	.wrapper_new .s_btn_wr .s_btn /*搜索按钮*/ {
-		backdrop-filter: blur(card_blur+5) !important;
-		background-color: card_color - 50% !important;
-		border-radius: 0, card_radius, card_radius, 0 !important;
+		backdrop-filter: blur($card_blur+5) !important;
+		background-color: $card_color - 50% !important;
+		border-radius: 0, $card_radius, $card_radius, 0 !important;
 		border: none !important;
 	}
     #head /*隐藏搜索框底图*/ {
@@ -266,8 +266,8 @@
         height: 0px !important;
     }
 	.wrapper_new #form .bdsug-new,	/*搜索建议卡片*/{
-		backdrop-filter: blur(card_blur+5) !important;
-        background-color: card_color + 25% !important;
+		backdrop-filter: blur($card_blur+5) !important;
+        background-color: $card_color + 25% !important;
 	}
     #s_tab /*搜索选项(网页、资讯、视频)*/ {
         top: -10px !important;
@@ -293,24 +293,24 @@
 	// ———————设置页面 背景图片————————— //
     body {
 		background-attachment: fixed !important;
-        background-image: bg_img !important;
+        background-image: $bg_img !important;
         background-size: cover !important;
     }
 	
     // ———————搜索结果 大小颜色———————— //
 	a[class="video-title c-link"],
     h3 a { 
-        color: title_color !important;
+        color: $title_color !important;
         font-size: 16px !important;
         text-decoration: none !important;
     }
     h3 a:hover {
-		color: title_color + 25% !important;
-        border-bottom: title_color+50% 1.2px solid;
+		color: $title_color + 25% !important;
+        border-bottom: $title_color+50% 1.2px solid;
         text-decoration: none !important;
     }
     em {
-        color: chara_match !important;
+        color: $chara_match !important;
         font-size: 16px !important;
         text-decoration: none !important;
     }
@@ -318,7 +318,7 @@
 	.op-se-listen-recommend,
 	.c-gap-right-small,
 	.c-gap-top-xsmall {
-		color: title_color !important;
+		color: $title_color !important;
 	}
     .c-showurl.c-color-gray {
         font-size: 12px !important;
@@ -361,10 +361,10 @@
         margin: 0.4em !important;
 		display: block !important;
         overflow: auto !important;			    /*双栏卡片整体风格*/
-        border-radius: card_radius !important;     	/*卡片结果圆角*/
-        background: card_color !important;			/*卡片颜色*/
-		backdrop-filter: blur(card_blur);			/*卡片阴影*/
-        box-shadow: 0px 2px 5px 2px card_color - 5% !important;
+        border-radius: $card_radius !important;     	/*卡片结果圆角*/
+        background: $card_color !important;			/*卡片颜色*/
+		backdrop-filter: blur($card_blur);			/*卡片阴影*/
+        box-shadow: 0px 2px 5px 2px $card_color - 5% !important;
         transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
         box-sizing: content-box!important;     
     }
@@ -407,14 +407,14 @@
 	// ========== 百度主页 背景壁纸 ========== //
 	body {
 		background-attachment: fixed !important;
-        background-image: bg_img !important;
+        background-image: $bg_img !important;
         background-size: cover !important;
     }
  
 	.self-btn 	/*百度搜索框*/ {
-		backdrop-filter: blur(card_blur+5) !important;
-        background-color: card_color - 50% !important; 
-		border-radius: card_radius, 0, card_radius, 0 !important;
+		backdrop-filter: blur($card_blur+5) !important;
+        background-color: $card_color - 50% !important; 
+		border-radius: $card_radius, 0, $card_radius, 0 !important;
     }
 	#bottom_layer, #s_top_wrap {
 		display: none !important;
