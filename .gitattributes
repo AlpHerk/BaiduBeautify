@@ -1,1 +1,2 @@
-BaiduBeatify-TAB.styl linguist-vendored
+*.styl linguist-vendored
+**/resource/*.styl linguist-vendored
